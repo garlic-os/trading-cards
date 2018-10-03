@@ -1,4 +1,4 @@
-For a History project.
+A History project.
 
 # Enlightenment Trading Cards
 ## The Age of Enlightenment
@@ -50,9 +50,7 @@ Your group will create a collector’s set of trading cards based on the Enlight
 - [Enlightenment Thinkers and Government](http://www.lcboe.net/userfiles/141/Classes/2439/enltthinkers.pdf%3Fid%3D537902)
 
 ## Example: David Hume
-  
-
-
+![Example of what a trading card should look like](example.jpg)
 
 ## Rubric
 ### FRONT SIDE
