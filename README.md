@@ -14,12 +14,12 @@ Your group will create a collector’s set of trading cards based on the Enlight
 4. Within the groups, the only topic of conversation should be about the thinkers and the assignment
 5. Each group will receive a group grade that will indicate not only completion of the task, but it will also contain an element dedicated to how well you were on task and worked together as a group.
 
-## Card Requirements:
-### FRONT: 
+## Card Requirements
+### FRONT
 - Creatively and clearly display their first and last name.
 - Include a clear picture or portrait of the person
 - Design the white space in a manner that the it is creative and artistic, but the focus remains on the name and picture.
-### BACK:
+### BACK
 - Name/DOB/DOD- Include the thinker’s name, date of birth, and date of death.
 - The “Statistics” portion of the card should be divided into 4 parts
 - What were the thinkers’ main ideas or philosophies? Must list at least two.
@@ -56,21 +56,28 @@ Your group will create a collector’s set of trading cards based on the Enlight
 
 ## Rubric
 ### FRONT SIDE
-- Name is clearly visible and spelled correctly - 5 
-- Picture or Portrait is accurate and clear - 5
-- Front side is decorated cleanly and creatively - 5
+| Category | Points |
+| -------- | -----------|
+| Name is clearly visible and spelled correctly | 5 |
+| Picture or Portrait is accurate and clear | 5 |
+| Front side is decorated cleanly and creatively | 5 |
 
 ### BACK SIDE
-- Name, DOB, and DOD are accurate and clearly visible - 5
-- Thinkers main ideas and philosophies are clearly stated and include two examples - 5
-- Quote applies to Enlightenment thought and philosophy - 5
-- The significance of the thinker is expressed clearly as it pertains to American government - 5
-- Publications are listed accurately and relate to subject matter - 5
-- Back of card divided in a way that the reader can comprehend organization and meaning of each part - 5
-- Back of card is organized cleanly and creatively - 5
+| Category | Points |
+| --- | --- |
+| Name, DOB, and DOD are accurate and clearly visible | 5
+| Thinkers main ideas and philosophies are clearly stated and include two examples | 5
+| Quote applies to Enlightenment thought and philosophy | 5
+| The significance of the thinker is expressed clearly as it pertains to American government | 5
+| Publications are listed accurately and relate to subject matter | 5
+| Back of card divided in a way that the reader can comprehend organization and meaning of each part | 5
+| Back of card is organized cleanly and creatively | 5
 
-### OVERALL:
-- Group stayed on task in class throughout the assignment - 5  
-- All twelve cards are included in a single source and has been turned in individually by each member in Google Classroom - 5
+### OVERALL
+| Category | Points |
+| --- | --- |
+| Group stayed on task in class throughout the assignment | 5  
+| All twelve cards are included in a single source and has been turned in individually by each member in Google Classroom | 5
 
-### Total Points:  ()/60 
+| Total Points |   /60 |
+| --- | --- |
