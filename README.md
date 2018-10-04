@@ -1,4 +1,6 @@
-A History project.
+A History project. A heavily modified version of [thing](https://finalboss.org/public/thing/) from the depths of [finalboss.org](https://finalboss.org/). I would like to extend a big thank you to the Final Boss of the Internet for the basis for this project, and for just being a great place in general.
+
+---
 
 # [Enlightenment Trading Cards](https://grosserly.github.io/trading-cards/)
 ## The Age of Enlightenment
