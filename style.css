@@ -7,7 +7,7 @@
 
 body {
     background: #E7D6C5 url("bouchardon-self-portrait.jpg") repeat fixed center 25%;
-	background-size: cover;
+    background-size: cover;
     font-family: "Crimson Text", serif;
 }
 
@@ -29,17 +29,18 @@ h2 {
     justify-content: space-around;
     align-items: center;
     padding: 5% 14% 10%;
-	animation-name: fadein;
-	animation-duration: 1s;
+    animation-name: fadein;
+    animation-duration: 1s;
 }
 
 .card {
     overflow: hidden;
-	width: 400px;
-	height: 550px;
+    width: 400px;
+    height: 550px;
     background: #E2CA8E url("parchment-paper.jpg");
-	border: 2px solid #fff;
-	box-shadow: 0 0 50px;
+    background-size: cover;
+    border: 2px solid #fff;
+    box-shadow: 0 0 50px;
 }
 
 .left {
@@ -60,9 +61,9 @@ h2 {
 
 .cardrightcontainer {
     display: flex;
-	height: 100%;
-	flex-direction: column;
-	justify-content: center;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .portrait {
@@ -77,14 +78,14 @@ h2 {
 
 .namebanner {
     position: absolute;
-	bottom: 18%;
+    bottom: 18%;
     width: 100%;
     background: url("text-ribbon.png") bottom no-repeat;
     background-size: 85% 20%;
     font-family: "Marck Script", cursive;
-	font-size: 1.6em;
-	text-align: center;
-	color: #fff;
+    font-size: 1.6em;
+    text-align: center;
+    color: #fff;
     padding: 92% 0px 16px 0px;
 }
 
