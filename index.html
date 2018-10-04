@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8"> 
     <title>Enlightenment Trading Cards</title>
     <link rel="icon" href="favicon.png">
     <link href="style.css" type="text/css" rel="stylesheet" />
@@ -11,26 +12,39 @@
 
 <script type="text/javascript">
 
-//document.addEventListener('DOMContentLoaded', function() {
-
     /* function makeCard(portraitImage, name, birthDate, deathDate,
                          philosophyList, quote, significanceList, publicationsList) */
 
-    makeCard("portraits/john-locke.jpg", "John Locke", "August 29, 1632", "October 28, 1704", ["Modern philosophical empiricism","Political liberalism","Philosophical thinking was close to that of the founders of modern science","Believed in the importance of toleration"], "To love our neighbor as ourselves is such a truth for regulating human society, that by that alone one might determine all the cases in social morality.", ["Sparked the European Enlightenment","Helped create the U.S. Constitution"], ["Two Treatises of Government","An Essay Concerning Human Understanding","The Reasonableness of Christianity"]);  
-    makeCard("portraits/isaac-newton.jpg", "Sir Isaac Newton", "December 25, 1642", "March 20, 1727", ["Believed in the theory of general relativity", "Developed the theory of gravity"], "If I have seen further than others, it is by standing upon the shoulders of giants.", ["Discovered gravity","Developed the three laws of motion","Made several other contributions to science and mathematics"], ["Mathematical Principles of Natural Philosophy","Opticks"]);
-    // TODO: Get the rest of Volatire's information
-    makeCard("portraits/voltaire.jpg", "Voltaire", "November 21, 1694", "May 30, 1778", ["placeholder"], "placeholder", ["placeholder"], ["placeholder"]);   
-    makeCard("portraits/benjamin-franklin.jpg","Benjamin Franklin", "January 17, 1706", "April 17, 1790", ["Discovered electricity","Created an efficient wood burning stove"], "Half a truth is often a great lie.", ["He is the reason we now have electricity."], ["Poor Richard's Almanack"]);   
-    makeCard("portraits/francis-bacon.jpg", "Francis Bacon", "January 22, 1561", "April 9, 1626", ["Believed in the scientific method","Believed that science could become a tool for the betterment of humankind"], "There is no excellent beauty that hath not some strangeness in the proportion.", ["Developed the scientific method"], ["The Great Instauration","Valerius Terminus","History of Life and Death"]); 
-    makeCard("portraits/baron-de-montesquieu.jpg", "Baron de Montesquieu", "January 18, 1689", "February 10, 1755", ["Developed the idea of separation of powers","Heavily believed in democracy"], "To become truly great, one has to stand with people, not above them.", ["Created the idea of separation of powers"], ["The Spirit of Laws"]);
-    makeCard("portraits/adam-smith.jpg", "Adam Smith", "June 16, 1723", "July 17,1790", ["Created the idea of Laissez-faire","Created the idea of the free market's \"invisible hand\""], "All money is a matter of belief.", ["Conceptualized and developed many economic philosophies that are still applied in the present day"], ["The Wealth of Nations","Theory of Moral Sentiments"]);
-    makeCard("portraits/thomas-hobbes.jpg", "Thomas Hobbes", "April 5, 1588", "December 5, 1679", ["Social Contract Theory","Elements of Law"], "It is not wisdom but authority that makes a law.", ["Due to Hobbes's ideas, they understood that people cannot survive without a central government to protect them."], ["Leviathan"]);
-    makeCard("portraits/denis-diderot.jpg", "Denis Diderot", "October 5, 1713", "July 31, 1784" ["Aesthetics","Ethics","Social Theory"], "Only passions, great passions can elevate the soul to great things", ["Chief editor of The Encyclopedia, which is in use today","A prominent figure during the Enlightenment"], ["Rameau's Nephew","Memoirs of a Nun"]);
+makeCard("portraits/john-locke.jpg", "John Locke", "August 29, 1632", "October 28, 1704", ["Modern philosophical empiricism","Political liberalism","Philosophical thinking was close to that of the founders of modern science","Believed in the importance of toleration"], "To love our neighbor as ourselves is such a truth for regulating human society, that by that alone one might determine all the cases in social morality.", ["Sparked the European Enlightenment","Helped create the U.S. Constitution"], ["Two Treatises of Government","An Essay Concerning Human Understanding","The Reasonableness of Christianity"]);
 
-//}
+makeCard("portraits/isaac-newton.jpg", "Sir Isaac Newton", "December 25, 1642", "March 20, 1727", ["Believed in the theory of general relativity", "Developed the theory of gravity"], "If I have seen further than others, it is by standing upon the shoulders of giants.", ["Discovered gravity","Developed the three laws of motion","Made several other contributions to science and mathematics"], ["Principia Mathematica","Opticks"]);
 
+// TODO: Badger Kaylie to get the rest of the information for Voltaire
+makeCard("portraits/voltaire.jpg", "Voltaire", "November 21, 1694", "May 30, 1778", ["placeholder"], "placeholder", ["placeholder"], ["placeholder"]);
+
+makeCard("portraits/benjamin-franklin.jpg","Benjamin Franklin", "January 17, 1706", "April 17, 1790", ["Discovered electricity","Created an efficient wood burning stove"], "Half a truth is often a great lie.", ["He is the reason we now have electricity."], ["Poor Richard's Almanack"]);   
+
+makeCard("portraits/francis-bacon.jpg", "Francis Bacon", "January 22, 1561", "April 9, 1626", ["Believed in the scientific method","Believed that science could become a tool for the betterment of humankind"], "There is no excellent beauty that hath not some strangeness in the proportion.", ["Developed the scientific method"], ["The Great Instauration","Valerius Terminus","History of Life and Death"]); 
+
+makeCard("portraits/baron-de-montesquieu.jpg", "Baron de Montesquieu", "January 18, 1689", "February 10, 1755", ["Developed the idea of separation of powers","Heavily believed in democracy"], "To become truly great, one has to stand with people, not above them.", ["Created the idea of separation of powers"], ["The Spirit of Laws"]);
+
+makeCard("portraits/adam-smith.jpg", "Adam Smith", "June 16, 1723", "July 17,1790", ["Created the idea of Laissez-faire","Created the idea of the free market's \"invisible hand\""], "All money is a matter of belief.", ["Conceptualized and developed many economic philosophies that are still applied in the present day"], ["The Wealth of Nations","Theory of Moral Sentiments"]);
+
+makeCard("portraits/thomas-hobbes.jpg", "Thomas Hobbes", "April 5, 1588", "December 5, 1679", ["Social Contract Theory","Elements of Law"], "It is not wisdom but authority that makes a law.", ["Due to Hobbes's ideas, they understood that people cannot survive without a central government to protect them."], ["Leviathan"]);
+
+makeCard("portraits/denis-diderot.jpg", "Denis Diderot", "October 5, 1713", "July 31, 1784" ["Aesthetics","Ethics","Social Theory"], "Only passions, great passions can elevate the soul to great things.", ["Chief editor of the Encyclopédie, which is in use today","A prominent figure during the Enlightenment"], ["Rameau's Nephew","Memoirs of a Nun"]);
+    
+</script>
+    
+<script type="text/javascript">
+
+makeCard("portraits/immanuel-kant.jpg", "Immanuel Kant", "April 22, 1724", "February 12, 1804", ["Theorized about the limitations of human reason","Brought forth the idea that \"the only thing that is unconditionally good is a good will\"","Created the principle of Categorical Imperative"], "Science is organized knowledge. Wisdom is organized life.", ["Sparked a group of philosophers known as the new-Kantians","One of the most profound and original philosophers","Helped create secular rules of morality"], ["Critique of Pure Reason","Metaphysics of Morals","Critique of Judgment"]);
+
+makeCard("portraits/rene-descartes.jpg", "René Descartes", "March 31, 1596", "February 11, 1650", ["Made important connections between geometry and algebra","Created the Cartesian Method and coordinate system","Developed the Theory of Mind"], "I think, therefore I am.", ["Known as the first modern philosopher","Helped to make sense of the skepticism and scientific advancements of the Enlightenment","Much of western philosophy after him can be seen as a response to his writings"], ["Compendium Musicae","Le Monde","Discourse on the Method"]);
+
+makeCard("portraits/jean-jacques-rousseau.jpg", "Jean-Jacques Rousseau", "June 28, 1712", "July 2, 1778", ["Created the idea of a social contract"], "The world of reality has its limits; the world of imagination is boundless.", ["Wrote for the Encyclopédie","Published books that criticized religion and got him banned from France"], ["A Discourse on the Arts and Sciences","Du Contrat Social","Emile"]);
 
 </script>
-
+    
 </body>
 </html>
