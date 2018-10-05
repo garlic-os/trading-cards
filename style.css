@@ -110,7 +110,7 @@ h2 {
     margin: 0 0 0;
 }
 
-.quote {
+.quote, p.significance {
     margin-left:  20px;
     margin-right: 20px;
 }
