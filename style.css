@@ -28,7 +28,7 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 15% 14% 0;
+    padding: 10% 14% 5%;
     animation-name: fadein;
     animation-duration: 1s;
 }
