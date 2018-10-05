@@ -67,7 +67,7 @@ function makeCard(portraitImage, name,
 					}
 				} else { // Make a <p> instead of a list if there is only one quote in the list
 					var philotext = document.createElement("p");
-					philotext.setAttribute("class", "biotext");
+					philotext.setAttribute("class", "biotext philosophy");
 					philotext.appendChild(document.createTextNode(philosophyList[0]));
 				}
 					
@@ -94,7 +94,7 @@ function makeCard(portraitImage, name,
 					}
 				} else { // Make a <p> instead of a list if there is only one point of significance in the list
 					var signiftext = document.createElement("p");
-					signiftext.setAttribute("class", "biotext");
+					signiftext.setAttribute("class", "biotext significance");
 					signiftext.appendChild(document.createTextNode(significanceList[0]));
 				}
 
