@@ -58,7 +58,7 @@ function makeCard(portraitImage, name,
 				var philoListLen = philosophyList.length;
 				if (philoListLen > 1) {
 					var philotext = document.createElement("ul"); // Make a bullet-list out of philosophyList
-					philotext.setAttribute("class", "biotext");
+					philotext.setAttribute("class", "biotext philosophy");
 					
 					for (var i=0; i<philoListLen; i++) {
 						var listItem = document.createElement("li");
@@ -85,7 +85,7 @@ function makeCard(portraitImage, name,
 				var signifListLen = significanceList.length;
 				if (signifListLen > 1) {
 					var signiftext = document.createElement("ul"); // Make a bullet-list out of significanceList
-					signiftext.setAttribute("class", "biotext");
+					signiftext.setAttribute("class", "biotext significance");
 					
 					for (var i=0; i<signifListLen; i++) {
 						var listItem = document.createElement("li");
