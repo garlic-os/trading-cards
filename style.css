@@ -110,6 +110,11 @@ h2 {
     margin: 0 0 0;
 }
 
+.quote {
+    margin-left:  10px;
+    margin-right: 10px;
+}
+
 .quote, .publication {
     font-style: italic;
 }
