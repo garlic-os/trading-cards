@@ -33,6 +33,15 @@ h2 {
     animation-duration: 1s;
 }
 
+.creditcontainer {
+    background: #E2CA8E url("parchment-paper.jpg");
+    background-size: cover;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 50px;
+}
+
 .card {
     overflow: hidden;
     width: 400px;
