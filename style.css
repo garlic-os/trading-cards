@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Crimson+Text|Marck+Script');
+@import url("viewscroller/viewScroller.min.css");
+@import url("https://fonts.googleapis.com/css?family=Crimson+Text|Marck+Script");
 
 @keyframes fadein {
     from {filter: opacity(0);}
@@ -17,7 +18,7 @@ ul {
 }
 
 h2 {
-    padding-top: 0;
+    padding-top:    0;
     margin-bottom:  0;
     padding-bottom: 0;
 }
@@ -28,7 +29,6 @@ h2 {
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
-    padding: 10% 14% 5%;
     animation-name: fadein;
     animation-duration: 1s;
 }
@@ -41,16 +41,6 @@ h2 {
     background-size: cover;
     border: 2px solid #fff;
     box-shadow: 0 0 50px;
-}
-
-.left {
-    left: 30%;
-}
-
-.right {
-    overflow: auto;
-    left: 70%;
-    text-align: center;
 }
 
 .cardleftcontainer {
@@ -104,6 +94,8 @@ h2 {
 
 .bio {
     color: #C32814;
+    overflow: auto;
+    text-align: center;
 }
 
 .biotext {
