@@ -84,8 +84,8 @@ Your group will create a collector’s set of trading cards based on the Enlight
 
 ---
 
-| Group Member's Name | Names of thinkers this person is responsible for researching | | | |
-| --- | --- | --- | --- | --- |
+| Group Member's Name | Names of thinkers this person is responsible for researching | | |
+| --- | --- | --- | --- |
 | JH | Adam Smith | Thomas Hobbes | Diderot |
 | KA | John Locke | Sir Isaac Newton | Voltaire |
 | AB | Benjamin Franklin | Francis Bacon | Baron de Montesquieu |
