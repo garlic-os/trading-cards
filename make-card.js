@@ -146,3 +146,64 @@ function makeCard(vsAnchor, portraitImage, name,
     document.getElementById("mainbag").appendChild(cardrow);
 
 }
+
+
+function makeCredit() {
+
+    var credit = document.createElement("div");
+    credit.setAttribute("class", "cardrow mainview");
+    credit.setAttribute("vs-anchor", "credit")
+    
+        var creditcontainer = document.createElement("div");
+        creditcontainer.setAttribute("class", "creditcontainer");
+        
+            var firstline = document.createElement("div");
+            
+                var fStrong = document.createElement("strong");
+                fStrong.appendChild(document.createTextNode("Made for a History project by JH, KA, AB, and I"));
+                
+                firstline.appendChild(fStrong);
+                
+                
+            var secondline = document.createElement("div");
+            
+                var sA = document.createElement("a");
+                sA.setAttribute("href", "https://docs.google.com/document/d/1jsVtNJY2504sxYb1fQQflYbEovjVVGfhrgRFvWlzoms/edit");
+                sA.appendChild(document.createTextNode("Original instruction document"));
+                
+                secondline.appendChild(sA);
+                
+        
+            var thirdline = document.createElement("div");
+            
+                var tA = document.createElement("a");
+                tA.setAttribute("href", "https://docs.google.com/document/d/16eQLuKtQNXCkGEhEnGZq-oHNKFzM-UZ0s7m4C8hSStU/edit");
+                tA.appendChild(document.createTextNode("Information document"));
+                
+                thirdline.appendChild(tA);
+                
+                
+            var fourthline = document.createElement("div");
+            
+                var fA = document.createElement("a");
+                fA.setAttribute("href", "https://github.com/Grosserly/trading-cards");
+                fA.appendChild(document.createTextNode("This site's repository"));
+                
+                fourthline.appendChild(fA);
+                
+                
+                
+            creditcontainer.appendChild(firstline);
+            creditcontainer.appendChild(secondline);
+            creditcontainer.appendChild(thirdline);
+            creditcontainer.appendChild(fourthline);
+            
+    //---------------------------
+       
+        credit.appendChild(creditcontainer);
+        
+    //---------------------------
+        
+    document.getElementById("mainbag").appendChild(credit);
+        
+}
