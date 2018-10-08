@@ -169,7 +169,7 @@ function makeCredit() {
             
                 var sA = document.createElement("a");
                 sA.setAttribute("href", "https://docs.google.com/document/d/1jsVtNJY2504sxYb1fQQflYbEovjVVGfhrgRFvWlzoms/edit");
-                sA.appendChild(document.createTextNode("Original instruction document"));
+                sA.appendChild(document.createTextNode("Instruction document"));
                 
                 secondline.appendChild(sA);
                 
