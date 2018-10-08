@@ -82,7 +82,7 @@ Your group will create a collector’s set of trading cards based on the Enlight
 | Total Points |   /60 |
 | --- | --- |
 
----
+## Credit
 
 | Group Member's Name | Names of thinkers this person is responsible for researching | | |
 | --- | --- | --- | --- |
