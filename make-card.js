@@ -1,9 +1,9 @@
 
-function generateListHTML(list) {
+function generateListHTML(list, italicize) {
 	let length = list.length;
 	let html;
 	if (length > 1) {
-		html = `<ul class="biotext philosophy">`;
+		html = `<ul class="biotext ${(italicize) ? "publication" : ""}">`;
 		
 		for (let i=0; i<length; i++)
 			html += `<li>${list[i]}</li>`;
@@ -11,7 +11,7 @@ function generateListHTML(list) {
 		html += `</ul>`;
 
 	} else {
-		html = `<p class="biotext philosophy">${list[0]}</p>`;
+		html = `<p class="biotext ${(italicize) ? "publication" : ""}">${list[0]}</p>`;
 	}
 	
 	return html;
@@ -37,16 +37,16 @@ function makeCard(o) {
 						</h4>
 
 						<h2>Philosophy</h2>
-							${generateListHTML(o.philosophyList)}
+							${generateListHTML(o.philosophyList, false)}
 
 						<h2>Quote</h2>
 							<p class="biotext quote">${o.quote}</p>
 
 						<h2>Significance</h2>
-							${generateListHTML(o.significanceList)}
+							${generateListHTML(o.significanceList, false)}
 
 						<h2>Publications</h2>
-							${generateListHTML(o.publicationsList)}
+							${generateListHTML(o.publicationsList, true)}
 					</div>
 				</div>
 			</div>
