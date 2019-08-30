@@ -100,16 +100,11 @@ h2 {
 	height: 100%;
 }
 
-.topinfo {
-	margin: 0 0 0;
-	font-weight: bold;
-}
-
 .biotext {
 	margin: 0 0 0;
 }
 
-.quote, p.significance {
+.quote {
 	margin-left:  20px;
 	margin-right: 20px;
 }
