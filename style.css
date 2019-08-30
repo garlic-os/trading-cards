@@ -7,117 +7,117 @@
 }
 
 body {
-    background: #E7D6C5 url("bouchardon-self-portrait.jpg") repeat fixed center 25%;
-    background-size: cover;
-    font-family: "Crimson Text", serif;
+	background: #E7D6C5 url("bouchardon-self-portrait.jpg") repeat fixed center 25%;
+	background-size: cover;
+	font-family: "Crimson Text", serif;
 	margin: 0;
 	padding: 0;
 }
 
 ul {
-    text-align: left;
-    margin-left: 5%;
+	text-align: left;
+	margin-left: 5%;
 }
 
 h2 {
-    padding-top:    0;
-    margin-bottom:  0;
-    padding-bottom: 0;
+	padding-top:    0;
+	margin-bottom:  0;
+	padding-bottom: 0;
 }
 
 .section {
 	display: flex;
 	justify-content: space-evenly;
 	align-items: center;
-    animation-name: fadein;
-    animation-duration: 1s;
+	animation-name: fadein;
+   	animation-duration: 1s;
 	height: 100%;
 }
 
 .creditcontainer {
-    background: #E2CA8E url("parchment-paper.jpg");
-    background-size: cover;
-    text-align: center;
-    padding: 20px;
-    border: 2px solid #fff;
-    box-shadow: 0 0 50px;
+	background: #E2CA8E url("parchment-paper.jpg");
+	background-size: cover;
+	text-align: center;
+	padding: 20px;
+	border: 2px solid #fff;
+	box-shadow: 0 0 50px;
 	border-radius: 5px;
 }
 
 .card {
-    overflow: hidden;
-    width: 400px;
-    height: 550px;
-    background: #E2CA8E url("parchment-paper.jpg");
-    background-size: cover;
-    border: 2px solid #fff;
+	overflow: hidden;
+	width: 400px;
+	height: 550px;
+	background: #E2CA8E url("parchment-paper.jpg");
+	background-size: cover;
+	border: 2px solid #fff;
 	border-radius: 5px;
-    box-shadow: 0 0 50px #000;
+	box-shadow: 0 0 50px #000;
 }
 
 .left {
-    position: relative;
+	position: relative;
 }
 
 .right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #C32814;
-    overflow: auto;
-    text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #C32814;
+	overflow: auto;
+	text-align: center;
 }
 
 .portrait {
-    position: absolute;
-    top:    -9999px;
-    left:   -9999px;
-    right:  -9999px;
-    bottom: -9999px;
-    margin: auto;
-    height: 100%;
+	position: absolute;
+	top:    -9999px; /* If somebody can tell me why this does what it does, I'd love to know */
+	left:   -9999px;
+	right:  -9999px;
+	bottom: -9999px;
+	margin: auto;
+	height: 100%;
 }
 
 .namebanner {
-    position: absolute;
-    bottom: 18%;
-    width: 100%;
-    background: url("text-ribbon.png") bottom no-repeat;
-    background-size: 85% 20%;
-    font-family: "Felipa", cursive;
-    font-weight: bold;
-    font-size: 1.6em;
-    text-align: center;
-    color: #fff;
-    padding: 92% 0px 16px 0px;
+	position: absolute;
+	bottom: 18%;
+	width: 100%;
+	background: url("text-ribbon.png") bottom no-repeat;
+	background-size: 85% 20%;
+	font-family: "Felipa", cursive;
+	font-weight: bold;
+	font-size: 1.6em;
+	text-align: center;
+	color: #fff;
+	padding: 92% 0px 16px 0px;
 }
 
 .decoration {
-    position: absolute;
-    background: url("fancy-border.png");
-    background-size: 100% 100%;
-    width:  100%;
-    height: 100%;
+	position: absolute;
+	background: url("fancy-border.png");
+	background-size: 100% 100%;
+	width:  100%;
+	height: 100%;
 }
 
 .topinfo {
-    margin: 0 0 0;
-    font-weight: bold;
+	margin: 0 0 0;
+	font-weight: bold;
 }
 
 .biotext {
-    margin: 0 0 0;
+	margin: 0 0 0;
 }
 
 .quote, p.significance {
-    margin-left:  20px;
-    margin-right: 20px;
+	margin-left:  20px;
+	margin-right: 20px;
 }
 
 .quote, .publication {
-    font-style: italic;
+	font-style: italic;
 }
 
 .quote:before, .quote:after {
-    content: '"';
+	content: '"';
 }
