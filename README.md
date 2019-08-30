@@ -84,7 +84,7 @@ Your group will create a collector’s set of trading cards based on the Enlight
 
 ## Credit
 
-| Group member | Thinkers to research | | |
+| Group member | Thinkers researched | | |
 | --- | --- | --- | --- |
 | JH | Adam Smith | Thomas Hobbes | Diderot |
 | KA | John Locke | Sir Isaac Newton | Voltaire |
