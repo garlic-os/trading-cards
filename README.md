@@ -90,3 +90,8 @@ Your group will create a collector’s set of trading cards based on the Enlight
 | KA | John Locke | Sir Isaac Newton | Voltaire |
 | AB | Benjamin Franklin | Francis Bacon | Baron de Montesquieu |
 | Me | Jean-Jacques Rousseau | Immanuel Kant | René Descartes |
+
+
+
+
+<sup><sup>We got an A</sup></sup>
