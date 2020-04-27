@@ -2,7 +2,7 @@ A History project. A heavily modified version of [thing](https://finalboss.org/p
 
 ---
 
-# [Enlightenment Philosopher Trading Cards](https://grosserly.github.io/trading-cards/)
+# [Enlightenment Philosopher Trading Cards](https://the-garlic-os.github.io/trading-cards/)
 ## The Age of Enlightenment
 During the age of Enlightenment, most of the basic ideas that inspired future revolutions were introduced, debated, and discussed.  The Age of Enlightenment is also called the Age of Reason.  Many of the philosophers you will investigate during this activity will be used as inspiration for the American, French, and Latin American Revolutions.  
 
