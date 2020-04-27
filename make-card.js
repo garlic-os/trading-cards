@@ -64,7 +64,7 @@ function makeCredit() {
 			<div class="section" data-anchor="credit">
 				<div class="creditcontainer">
 					<p><b>A history project by JH, KA, AB, and I</b></p>
-					<p><a href="https://github.com/Grosserly/trading-cards">View this site's repository</a></p>
+					<p><a href="https://github.com/the-garlic-os/trading-cards">View this site's repository</a></p>
 				</div>
 			</div>
 	`;
